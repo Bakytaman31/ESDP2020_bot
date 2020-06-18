@@ -8,6 +8,9 @@
     "dotenv": "^8.2.0",
     "node-telegram-bot-api": "^0.50.0"
   },
+  "scripts": {
+    "test": "ncc build index.js -C -m -o dist"
+  },
   "devDependencies": {
     "@zeit/ncc": "^0.22.3"
   }
